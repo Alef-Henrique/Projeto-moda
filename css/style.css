@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viaoda+Libre&display=swap');
+html,body {
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --color-primaria:#162028;
+    --color-secundaria:#e2e2e2;
+    --color-terciaria:#425564;
+    --color-quaternaria:#555;
+}
+.container{
+    
+    background-color:var(--color-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    padding: 1em;
+}
+.imagem_acima img{
+    width: 100%;
+    height: 80%;
+    background: fixed;
+    
+}
+
+.titulo_cabeçalho{
+    font-family: "Roboto Serif", serif;
+    font-weight: 200;
+    font-size: 36px;
+    color:var(--color-secundaria); 
+}
+
+li {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 4px;
+    text-align: center;
+  
+}
+a {
+    text-decoration: none;
+    color:#425564; 
+    
+}
+a:hover{
+    color:var(--color-secundaria);
+    border-bottom:  solid 2px var(--color-secundaria) ;
+}
+.primeira_seçao{
+    text-align: center;
+    padding: 120px;
+    color:var(--color-quaternaria);
+ 
+}
+.primeira_seçao_titulo{
+    font-family: "Viaoda Libre", serif;
+    font-weight: 500;
+    font-size: 2.4em;
+}
+.primeira_seçao__paragrafo{
+    letter-spacing: 1px;
+    line-height: 2em;
+    font-family: "Roboto", sans-serif;    
+}
+.segunda_seçao{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+h2 {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color:var(--color-primaria);
+}
+.segunda_seçao__paragrafo{
+    font-family: "Roboto", sans-serif; 
+    color:var(--color-quaternaria);
+}
+
+.terceria_seçao{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+.terceira_seçao_container{
+    padding: 150px;
+    text-align:start;
+}
+
+.terceiro_seçao_titulo{
+    color:var(--color-secundaria);
+    font-size: 3em;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 500;
+}
+.terceira_seçao_paragrafo{
+    color:var(--color-secundaria);
+    font-family: "Roboto", sans-serif;
+    line-height: 2em;
+}
+footer{
+    background-color:var(--color-primaria);
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 2px;
+    color:var(--color-terciaria);
+}
+@media(max-width: 865px){
+
+.container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0;
+    }
+
+.titulo_cabeçalho{
+    display: flex;
+    justify-content: center;
+}
+.primeira_seçao{
+    padding: 30px;
+}
+li{
+    padding: 0 5px 0 5px;
+}
+.primeira_seçao_titulo{
+     font-size: 2.5em;
+     text-align: center; 
+}
+ul{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    gap: 0;
+    
+}
+
+.primeira_seçao__paragrafo{
+    font-size: 1em;
+}
+.segunda_seçao{
+    display: flex;
+    flex-direction: column;
+
+}
+.terceira_seçao_container{
+    padding: 30px;
+}
+.terceira_seçao_paragrafo{
+    font-size: 1.2;
+}
+.terceiro_seçao_titulo{
+    font-size: 2.5em;
+}
+}
