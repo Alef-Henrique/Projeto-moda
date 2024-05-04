@@ -35,6 +35,7 @@ html,body {
     font-family: "Roboto Serif", serif;
     font-weight: 200;
     font-size: 36px;
+    margin-bottom: 1.2rem;
     color:var(--color-secundaria); 
 }
 
