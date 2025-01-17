@@ -8,6 +8,7 @@ Tecnologias ultilizadas:
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="logo-html">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-css">
 <br>
+<img src="https://github.com/Alef-Henrique/Projeto-moda/blob/main/imagens/print-moda.png?raw=true" alt="print-do-projeto">
 
 
 
